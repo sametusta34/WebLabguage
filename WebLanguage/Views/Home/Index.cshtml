@@ -1,0 +1,50 @@
+﻿@using WebLanguage.Concrete
+@{
+    ViewBag.Title = "Index";
+    var culture = System.Threading.Thread.CurrentThread.CurrentUICulture.Name.ToLowerInvariant();
+}
+
+@helper selected(string c, string culture)
+{
+if (c == culture)
+{
+        @:checked="checked"
+    }
+}
+
+<h2>@Resources.PageTitle</h2>
+
+@using (Html.BeginForm("SetCulture", "Home"))
+{
+    <fieldset>
+        <legend></legend>
+
+        <div class="control-group">
+            <div class="controls">
+                <label for="en-us">
+                    <input name="culture" id="en-us" value="tr-TR" type="radio" @selected("tr-TR", culture) /> Türkçe
+                </label>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <div class="controls">
+                <label for="es">
+                    <input name="culture" id="es" value="en-US" type="radio" @selected("en-US", culture) /> English
+                </label>
+            </div>
+        </div>
+    </fieldset>
+}
+
+
+
+<script type="text/javascript">
+    (function ($) {
+        $("input[type = 'radio']").click(function () {
+            $(this).parents("form").submit(); // post form
+        });
+
+    })(jQuery);
+</script>
+

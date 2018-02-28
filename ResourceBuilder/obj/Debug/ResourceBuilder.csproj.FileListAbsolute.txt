@@ -1,0 +1,6 @@
+c:\users\samet.usta\documents\visual studio 2015\Projects\WebLanguage\ResourceBuilder\bin\Debug\ResourceBuilder.exe.config
+c:\users\samet.usta\documents\visual studio 2015\Projects\WebLanguage\ResourceBuilder\bin\Debug\ResourceBuilder.exe
+c:\users\samet.usta\documents\visual studio 2015\Projects\WebLanguage\ResourceBuilder\bin\Debug\ResourceBuilder.pdb
+c:\users\samet.usta\documents\visual studio 2015\Projects\WebLanguage\ResourceBuilder\obj\Debug\ResourceBuilder.csprojResolveAssemblyReference.cache
+c:\users\samet.usta\documents\visual studio 2015\Projects\WebLanguage\ResourceBuilder\obj\Debug\ResourceBuilder.exe
+c:\users\samet.usta\documents\visual studio 2015\Projects\WebLanguage\ResourceBuilder\obj\Debug\ResourceBuilder.pdb
